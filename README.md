@@ -56,6 +56,10 @@ This project is licensed under the terms of the [MIT license](https://github.com
 
 ### HOW TO MAKE A RELEASE
 
+Prepare build packages:
+* pip install build
+* pip install twine
+
 * Add changes to `CHANGELOG.md`
 * Change version in `iban_oplata/__init__.py` and `pyproject.toml`
 * `source .env/bin/activate`

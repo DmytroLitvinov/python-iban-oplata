@@ -22,17 +22,16 @@ Python API wrapper around IBAN Oplata API. Feel free to contribute and make it b
 pip install iban-oplata
 ```
 
-## Usage
+## Usage 
 
-1) Request your token at [IBAN Oplata team](https://ibanoplata.com/iban-oplata). Ask support manager to create a token for you.
+1) Create your account at [IBAN Oplata](https://ibanoplata.com/) and generate [API token](https://ibanoplata.com/api-token). 
 
 2) Use that token to initialize client:
 
 ```python
 from iban_oplata import IBANOplataAPIClient
 
-user = 'email@example.com'
-password = 'your_password'
+token = 'your_api_token_here'
 
 dummy_data = {
     'organization_name': 'Test organization',
@@ -42,9 +41,9 @@ dummy_data = {
     'payment_purpose': 'Test invoice via iban-oplata python SDK',
 }
 
-iban_oplata = IBANOplataAPIClient(user, password)
+iban_oplata = IBANOplataAPIClient(token)
 
-response = IBANOplataAPIClient.document_api.list()
+response = iban_oplata.create_invoice(dummy_data)
 iban_invoice_url = response.data['ibanInvoiceUrl']
 print(f'IBAN Invoice URL: {iban_invoice_url}')
 ```

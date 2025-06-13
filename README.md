@@ -5,7 +5,9 @@
 [![PyPI - License](https://img.shields.io/pypi/l/iban-oplata?style=flat-square)](https://pypi.python.org/pypi/iban-oplata/)
 
 ---
-**Documentation**: [https://docs.google.com/document/d/1u4pARzom4oM9gYB7yGd_W5upJSvEk9KJNSc-K0XpMy0/edit?tab=t.0#heading=h.hnxvx03248a6](https://docs.google.com/document/d/1u4pARzom4oM9gYB7yGd_W5upJSvEk9KJNSc-K0XpMy0/edit?tab=t.0#heading=h.hnxvx03248a6)
+**Documentation V1**: [https://docs.google.com/document/d/1u4pARzom4oM9gYB7yGd_W5upJSvEk9KJNSc-K0XpMy0/edit?tab=t.0#heading=h.hnxvx03248a6](https://docs.google.com/document/d/1u4pARzom4oM9gYB7yGd_W5upJSvEk9KJNSc-K0XpMy0/edit?tab=t.0#heading=h.hnxvx03248a6)
+
+**Documentation V2**: [https://docs.google.com/document/d/1u4pARzom4oM9gYB7yGd_W5upJSvEk9KJNSc-K0XpMy0/edit?tab=t.0#heading=h.opamuhdgxajx](https://docs.google.com/document/d/1u4pARzom4oM9gYB7yGd_W5upJSvEk9KJNSc-K0XpMy0/edit?tab=t.0#heading=h.opamuhdgxajx)
 
 **Source Code**: [https://github.com/DmytroLitvinov/python-iban-oplata](https://github.com/DmytroLitvinov/python-iban-oplata)
 
